@@ -41,12 +41,19 @@ Each session follows the same structure:
    - no external libraries
    - and, most importantly, no LLMs
 
+## Weekly Notes and Resources
+
+Each week has its own folder with:
+
+- a summary of what was discussed
+- links or files for resources used in that session
+
+Available weekly notes:
+
+- [2026-06-08](./2026_06_08/README.md)
+
 ## Join Us
 
 Sessions start in June and take place weekly on a day that works for participants.
-
-If you are interested, please complete the poll:
-
-https://forms.gle/XymD72dquz3SXKty5
 
 Looking forward to building and learning together.
