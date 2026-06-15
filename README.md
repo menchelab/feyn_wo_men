@@ -50,10 +50,15 @@ Each week has its own folder with:
 
 Available weekly notes:
 
-- [2026-06-08](./2026_06_08/README.md)
+- [2026-06-08](./2026_06_08/README.md) — Intro, C++ basics, numerical analysis
+- [2026-06-15](./2026_06_15/README.md) — Linked lists, pointers & classes, homework
 
 ## Join Us
 
 Sessions start in June and take place weekly on a day that works for participants.
+
+If you are interested, please complete the poll:
+
+https://forms.gle/XymD72dquz3SXKty5
 
 Looking forward to building and learning together.
