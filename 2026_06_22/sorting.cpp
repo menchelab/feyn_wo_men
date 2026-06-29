@@ -113,38 +113,38 @@ int main(void) {
   cout << "Sorted (" << b_swaps << " swaps):\n";
   L1.print();
 
-  // --- selection sort demo ---
-  cout << "\n=== Selection Sort ===\n";
-  List L2 = List();
-  for (int i = 0; i < 20; i++)
-    L2.attach(rand() % 100);
+  // // --- selection sort demo ---
+  // cout << "\n=== Selection Sort ===\n";
+  // List L2 = List();
+  // for (int i = 0; i < 20; i++)
+  //   L2.attach(rand() % 100);
 
-  cout << "Unsorted:\n";
-  L2.print();
+  // cout << "Unsorted:\n";
+  // L2.print();
 
-  int s_swaps = selectionsort(&L2);
+  // int s_swaps = selectionsort(&L2);
 
-  cout << "Sorted (" << s_swaps << " swaps):\n";
-  L2.print();
+  // cout << "Sorted (" << s_swaps << " swaps):\n";
+  // L2.print();
 
-  // --- benchmark both ---
-  cout << "\n--- Benchmarking ---\n";
+  // // --- benchmark both ---
+  // cout << "\n--- Benchmarking ---\n";
 
-  FILE *csv = fopen("bubblesort.csv", "w");
-  if (csv == nullptr) {
-    cout << "failed to open bubblesort.csv\n";
-    return 1;
-  }
-  benchmark_sort(bubblesort, csv);
-  fclose(csv);
+  // FILE *csv = fopen("bubblesort.csv", "w");
+  // if (csv == nullptr) {
+  //   cout << "failed to open bubblesort.csv\n";
+  //   return 1;
+  // }
+  // benchmark_sort(bubblesort, csv);
+  // fclose(csv);
 
-  csv = fopen("selectionsort.csv", "w");
-  if (csv == nullptr) {
-    cout << "failed to open selectionsort.csv\n";
-    return 1;
-  }
-  benchmark_sort(selectionsort, csv);
-  fclose(csv);
+  // csv = fopen("selectionsort.csv", "w");
+  // if (csv == nullptr) {
+  //   cout << "failed to open selectionsort.csv\n";
+  //   return 1;
+  // }
+  // benchmark_sort(selectionsort, csv);
+  // fclose(csv);
 
   return 0;
 }
