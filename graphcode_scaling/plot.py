@@ -51,7 +51,7 @@ def draw(ax, metric, specs, title, ylabel):
     for s in ("left", "bottom"):
         ax.spines[s].set_color(GRID)
     ax.tick_params(colors=MUTED)
-    ax.legend(frameon=False, fontsize=8.5)
+    ax.legend(frameon=False, fontsize=8.5, loc="lower right")
 
 
 DATA = [("uniform, k-NN codensity", C["blue"], dict(dataset="uniform", func="knn")),
